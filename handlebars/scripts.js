@@ -1,7 +1,7 @@
 const data = {
-    Name: "Techpro",
-    Age: 30,
-    City: "Thessaloniki",
+    name: "Techpro",
+    age: 30,
+    city: "Thessaloniki",
     location: "Ymca",
 };
 
