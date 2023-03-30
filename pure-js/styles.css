@@ -1,0 +1,52 @@
+* {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 1440px;
+    background-color: gray;
+}
+
+.column-header {
+    border-radius: 0.5rem 0.5rem 0 0;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #293241;
+    background-color: #98c1d9;
+    padding: 20px 30px;
+    margin: 0;
+}
+
+.grid-column {
+    width: 500px;
+    margin: 2rem auto;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+}
+
+.field {
+    background-color: #fff;
+    min-height: 70px;
+}
+
+.field-content {
+    padding: 20px 30px;
+}
+
+.field-name {
+    color: #a3a9b1;
+    font-size: 24px;
+}
+
+.field-value {
+    color: #424956;
+    font-size: 32px;
+    padding-bottom: 16px;
+}
+
+.field:nth-of-type(odd) {
+    background-color: #f4f7f8;
+}
